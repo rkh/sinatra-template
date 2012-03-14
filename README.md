@@ -7,6 +7,6 @@ Run:
 
 Deploy to heroku:
 
-    heroku create
+    heroku create --stack cedar
     heroku config:add RACK_ENV=production
     git ps heroku
