@@ -9,4 +9,4 @@ Deploy to heroku:
 
     heroku create --stack cedar
     heroku config:add RACK_ENV=production
-    git ps heroku
+    git push heroku master
